@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>アンケート</title>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+<h1>アンケート</h1>
+<form>
+  <div class="form_txt">
+    <label>氏名：<input type="text" name="user_name" size="30"></label><p>
+    <label>メールアドレス: <input type="text" mail="mail" size="30"></label>
+</div>
+ <div class="form_chk">
+    <p><b>質問（1）</b><br>どんなゲームが好き??</p>
+    <label><input type="checkbox" name="lang">PvP</label>
+    <label><input type="checkbox" name="lang">FPS</label>
+    <label><input type="checkbox" name="lang">ACTION RPG</label>
+</div>
+ <div class="form_chk">
+  <p><b>質問（2）</b><br>お気に入りを評価してください!!!</p>
+  <label><input type="radio" name="eng">☆</label>
+  <label><input type="radio" name="eng">☆☆☆</label>
+  <label><input type="radio" name="eng">☆☆☆☆☆</label>
+</div>
+<div class="form_chk">
+  <p><b>質問（3）</b><br>このゲームをプレイしたことがある？</p>
+  <label><input type="checkbox" name="lang">あった</label>
+  <label><input type="checkbox" name="lang">あってない</label>
+</div>
+ <div class="form_txt">
+    <p><b>質問（4 ）</b><br>プレイする言語を下に記入して。</p>
+    <textarea name="message" cols="50" rows="3"></textarea>
+</div>
+ <div class="form_txt">
+  <p><b>質問（5）</b><br>1日あたり何時間プレイしますか?</p>
+  <select name="age">
+    <option>以下から選択</option>
+    <option>1時間</option>
+    <option>3時間</option>
+    <option>5時間</option>
+    <option>8時間</option>
+    <option>10時間以上</option>
+  </select>
+</div>
+<div class="form_txt">
+  <p><b>質問（6）</b><br>年齢</p>
+  <select name="age">
+    <option>以下から選択</option>
+    <option>13歳ー15歳</option>
+    <option>15歳ー18歳</option>
+    <option>18歳ー25歳</option>
+    <option>25歳ー30歳</option>
+    <option>130歳以上</option>
+  </select>
+</div>
+<div class="form_but">
+    <input type="submit" value="送信">
+    <input type="reset" value="クリア">
+  </div>
+</form>
+</body>
+
+</html>
